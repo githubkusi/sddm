@@ -1,0 +1,6 @@
+workflow:
+  steps:
+    - branch_package:
+        source_project: home:susekusi
+        source_package: sddm
+        target_project: sddm-fixed-autologin
